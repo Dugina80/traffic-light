@@ -1,0 +1,49 @@
+.traffic-light {
+  display: inline-block;
+}
+
+.traffic-light__Lamp {
+  width: 150px;
+  height: 455px;
+  border: 6px solid rgb(36, 22, 22);
+  background-color: gray;
+}
+
+.traffic-light__Lamp_color-red {
+  cursor: pointer;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 1px solid;
+  background-color: rgb(255, 0, 0, 0.2);
+}
+
+.traffic-light__Lamp_color-red:hover {
+  background-color: red;
+}
+
+.traffic-light__Lamp_color-yellow {
+  cursor: pointer;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 1px solid;
+  background-color: rgb(255, 255, 0, 0.2);
+}
+
+.traffic-light__Lamp_color-yellow:hover {
+  background-color: yellow;
+}
+
+.traffic-light__Lamp_color-green {
+  cursor: pointer;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 1px solid;
+  background-color: rgb(0, 128, 0, 0.2);
+}
+
+.traffic-light__Lamp_color-green:hover {
+  background-color: green;
+}
